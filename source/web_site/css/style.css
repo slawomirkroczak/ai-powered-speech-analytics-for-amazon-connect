@@ -1,6 +1,6 @@
 
-html, body { border: 0; margin: 0; padding: 0; }
-body { font: 100% "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; min-width: 100%; min-height: 101%; color: #666; background:#eee; }
+html, body { border: 0; margin: 0; padding: 0;}
+body { font: 100% "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; min-width: 100%; min-height: 101%; color: #666; background:#fff; }
 
 
 p, label, legend { font: 1em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
@@ -27,6 +27,22 @@ section {
 	-moz-box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
 }
 
+
+#ev-main-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+.dt-logo-container.logo-align-left img{
+	float: left;
+	margin: 10px 10px 0 20px;
+}
+
+#menu-header-top li {
+	display: inline-block;
+}
 /* Special CSS for Call Controls Section */
 fieldset.salesOrder {
 padding: 7px;
