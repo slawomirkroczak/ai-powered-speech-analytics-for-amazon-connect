@@ -763,7 +763,7 @@ Resources:
         Handler: "com.amazonaws.kvstranscribestreaming.KVSTranscribeStreamingLambda::handleRequest"
         Role: !GetAtt AIPoweredSpeechAnalyticsKvsTranscribeRole.Arn
         Runtime: java8
-        MemorySize: 512
+        MemorySize: 1024
         # maximum timeout is 15 minutes today
         Timeout: 900
         Environment:
