@@ -675,6 +675,7 @@ Resources:
                 - "comprehend:DetectSyntax"
                 - "comprehend:DetectKeyPhrases"
                 - "comprehend:DetectDominantLanguage"
+                - "comprehendmedical:*"
               Resource: "*"
             -
               Effect: "Allow"
