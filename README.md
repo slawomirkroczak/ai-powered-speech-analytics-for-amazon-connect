@@ -1,5 +1,8 @@
-# AI Powered Speech Analytics for Amazon Connect
-todo
+# AI Powered Speech Analytics for eVisits2020
+
+MVP example here:
+
+https://d35dq62p0fusdw.cloudfront.net/agentAssist.html
 
 ## Running unit tests for customization
 * Clone the repository, then make the desired code changes
