@@ -271,6 +271,15 @@ Resources:
             WebsiteConfiguration:
                 IndexDocument: agentAssist.html
                 ErrorDocument: error.html
+            CorsRules:
+              AllowedHeaders:
+                - *
+              AllowedMethods:
+                - GET
+                - HEAD
+              AllowedOrigins:
+                - *
+              MaxAge: 3000
             BucketEncryption:
               ServerSideEncryptionConfiguration:
                 - ServerSideEncryptionByDefault:
